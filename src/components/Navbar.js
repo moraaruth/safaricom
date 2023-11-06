@@ -15,8 +15,17 @@ function Navbar() {
     padding: '0.5rem',
   };
 
+  const customLinkStyle = {
+    fontSize: '1.0rem',
+    fontWeight: 'bold',
+  };
+
+  const navbarStyle = {
+    marginTop: '20px', // Add margin to the top of the navbar
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg " style={navbarStyle}>
       <a className="navbar-brand" href="/">Safaricom</a>
       <button
         className="navbar-toggler"
@@ -32,27 +41,27 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <a className="nav-link mx-4" href="/">Home</a> 
+            <a className="nav-link mx-4" style={customLinkStyle} href="/">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link mx-4" href="/about">Discover</a> 
+            <a className="nav-link mx-4" style={customLinkStyle} href="/about">Discover</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link mx-4" href="/contact">Experience More</a> 
+            <a className="nav-link mx-4" style={customLinkStyle} href="/contact">Experience More</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link mx-4" href="/testimonials">Testimonials</a> 
+            <a className="nav-link mx-4" style={customLinkStyle} href="/testimonials">Testimonials</a>
           </li>
           <li className="nav-item">
-            <button type="button" className="btn btn-primary signin mx-2">Sign in</button>
+            <button type="button" className="btn btn-primary signin mx-2" style={customLinkStyle}>Sign in</button>
           </li>
-          <li className="nav-item mx-4">
+          <li className="nav-item mx-4" style={customLinkStyle}>
             <Button
               variant="contained"
               sx={customButtonStyle}
               startIcon={<ShareIcon />}
             >
-             
+
             </Button>
           </li>
         </ul>
