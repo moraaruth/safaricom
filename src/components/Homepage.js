@@ -33,7 +33,13 @@ function Homepage() {
         <>
             <Navbar />
             <div className='home'>
-                <p>home</p>
+                <div className='homeText'>
+                <p className='getMore'>Get More Done With</p>
+                <p className='website'>safaricom.com</p>
+                <p>Check your Account balances, make top ups to <br/> ensure you have enough resources for calling <br /> airtime, SMS and data.</p>
+                <button className='switch'>Switch to safaricom internet</button>
+                <p>Find Out Why  <i className="fas fa-arrow-down"></i> </p>
+                </div>
             </div>
             <h1 className='heading1'>Testimonials</h1>
             <h3 className='heading3'>What Our Trusted Users Say</h3>

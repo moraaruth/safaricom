@@ -20,8 +20,39 @@
 .home {
     background-color: rgb(245, 245, 245);
     height: 700px;
+    margin-bottom: 45px;
+   
+}
+.homeText {
+    float: left;
 }
 
+.getMore {
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+.website {
+    color: green;
+    font-size: 4.5rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-items: flex-start;
+ 
+}
+
+.switch {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
 .backgroud-container {
     background-color: rgb(245, 245, 245);
     padding: 30px;
