@@ -33,7 +33,7 @@ function Homepage() {
         <>
             <Navbar />
             <h1 className='heading1'>Testimonials</h1>
-            <h3>What Our Trusted Users Say</h3>
+            <h3 className='heading3'>What Our Trusted Users Say</h3>
             <div className='backgroud-container'>
                 <div className='testimonials-container'>
                     <Testimonial
@@ -66,7 +66,9 @@ function Homepage() {
                     </button>
                 </div>
             </div>
-            <br /><br /><br /><br /><br /><br /><br /><br />
+            <div>
+                <p className='feedback'>Was this information helpful?<a href="https://twitter.com/Safaricom_Care" target="_blank" rel="noopener noreferrer"> <span style={{color: "green", textDecoration: 'underline'}}>If not tell us how we can improve</span></a> or contact us <a href="https://twitter.com/Safaricom_Care" target="_blank" rel="noopener noreferrer"><span style={{color: "green", textDecoration: 'underline'}}>@Safaricom_Care</span> </a> on Twitter</p>
+            </div>
             <Footer />
         </>
     )

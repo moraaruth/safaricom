@@ -106,3 +106,23 @@
     padding-left: 25px;
     padding-right: 25px;
 }
+
+.heading1 {
+    text-transform: uppercase;
+    color: green;
+    font-weight: 300;
+    font-size: 34px;
+}
+
+.heading3 {
+    font-size: 28px;
+    font-weight: 400px;
+    margin-bottom: 35px;
+}
+
+.feedback {
+    font-size: 12px;
+    font-weight: 200px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
