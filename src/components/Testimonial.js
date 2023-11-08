@@ -10,11 +10,15 @@ function Testimonial ({ rating, message, name }){
         />
     ))
     return (
-        <div className='testimonial'>
-            <div className='rating'>{stars}</div><br />
-            <p className='message'>{message}</p>
-            <p className='name'>{name}</p>
-        </div>
+       
+           
+        <div className="testimonial">
+    
+        <div className="rating">{stars}</div>
+        <p className="message">{message}</p>
+        <p className="name">{name}</p>
+      </div>
+     
     )
 }
 

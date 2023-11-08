@@ -22,6 +22,7 @@
     padding: 30px;
     max-width: 800px;
     margin: 0 auto;
+    height: 400px;
 
 
 }
@@ -33,6 +34,7 @@
     overflow: hidden;
     padding: 25px;
     height: 280px;
+
       
 }
 
@@ -42,9 +44,9 @@
     background-color: white;
     border-radius: 5px;
     margin: 0 5px 20px 5px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: left;
-    font-weight: 300;
+    font-weight: 200;
     font-family:sans-serif;
     position: absolute;
     font-size: 14px;
@@ -60,4 +62,47 @@
   
    right: -5px;
 
+}
+
+.arrows {
+    padding-top: 0;   
+    max-width: 200px;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-left: 280px;
+  
+  }
+  
+  .arrow {
+    cursor: pointer;
+  }
+  
+  .previous {
+    margin-right: 10px;
+  }
+  
+  .next {
+    margin-left: 10px;
+  }
+
+.arrow-button {
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: green;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px;
+}
+.arrow-button:hover {
+    background-color: green;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
