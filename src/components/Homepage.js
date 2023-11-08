@@ -32,6 +32,9 @@ function Homepage() {
     return (
         <>
             <Navbar />
+            <div className='home'>
+                <p>home</p>
+            </div>
             <h1 className='heading1'>Testimonials</h1>
             <h3 className='heading3'>What Our Trusted Users Say</h3>
             <div className='backgroud-container'>
