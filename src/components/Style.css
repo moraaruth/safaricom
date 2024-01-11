@@ -195,3 +195,27 @@
     padding: 1.5rem;
     width: 100%;
 }
+.world {
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'flex-start';
+    background-color: rgb(57, 167, 57);
+    width: 85%;
+    margin-left: 8rem;
+    border-radius: 20px;
+    padding: 5rem;
+    text-align: left;
+    color: white;
+}
+
+.worldbutton {
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    color: green;
+    font-weight: 700;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}

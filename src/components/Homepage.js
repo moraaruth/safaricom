@@ -5,6 +5,10 @@ import Footer from './Footer'
 import Testimonial from './Testimonial'
 import './Style.css'
 import ExprienceMore from './ExprienceMore'
+import Device from './Device'
+import Account from './Account'
+import Fibre from './Fibre'
+import World from './World'
 
 
 
@@ -46,7 +50,15 @@ function Homepage() {
             <div>
                 <Discover />
                 <br/> <br/> <br/> <br/> 
-                <ExprienceMore />
+                <ExprienceMore /> 
+                <br/> <br/> <br/> 
+                <Device />
+                <br/> <br/> <br/> 
+                <Account />
+                <br/> <br/> <br/> 
+                <Fibre />
+                <br/> <br/> <br/> 
+                <World />
             </div>
             <h1 className='heading1'>Testimonials</h1>
             <h3 className='heading3'>What Our Trusted Users Say</h3>
