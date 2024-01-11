@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import Navbar from './Navbar'
+import Discover from './Discover'
 import Footer from './Footer'
 import Testimonial from './Testimonial'
 import './Style.css'
+import ExprienceMore from './ExprienceMore'
 
 
 
@@ -40,6 +42,11 @@ function Homepage() {
                 <button className='switch'>Switch to safaricom internet</button>
                 <p>Find Out Why  <i className="fas fa-arrow-down"></i> </p>
                 </div>
+            </div>
+            <div>
+                <Discover />
+                <br/> <br/> <br/> <br/> 
+                <ExprienceMore />
             </div>
             <h1 className='heading1'>Testimonials</h1>
             <h3 className='heading3'>What Our Trusted Users Say</h3>
