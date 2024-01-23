@@ -9,6 +9,7 @@ import Device from './Device'
 import Account from './Account'
 import Fibre from './Fibre'
 import World from './World'
+import Dashboard from './Dashboard'
 
 
 
@@ -46,8 +47,13 @@ function Homepage() {
                 <button className='switch'>Switch to safaricom internet</button>
                 <p>Find Out Why  <i className="fas fa-arrow-down"></i> </p>
                 </div>
+               
+            </div>
+            <div className='dashboardContainer'>
+            <Dashboard />
             </div>
             <div>
+           
                 <Discover />
                 <br/> <br/> <br/> <br/> 
                 <ExprienceMore /> 
