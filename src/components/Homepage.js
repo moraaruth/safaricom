@@ -47,11 +47,11 @@ function Homepage() {
                 <button className='switch'>Switch to safaricom internet</button>
                 <p>Find Out Why  <i className="fas fa-arrow-down"></i> </p>
                 </div>
-               
-            </div>
-            <div className='dashboardContainer'>
+                <div className='dashboardContainer'>
             <Dashboard />
             </div>
+            </div>
+          
             <div>
            
                 <Discover />
