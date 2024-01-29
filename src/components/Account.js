@@ -10,6 +10,7 @@ function Account() {
             Manage your Postpay or Prepay account here at Safaricom.com.<br /> Check you Credit limits, 
             pay your bills, manage your Bonga Points <br /> and so much more.
             </p>
+            <img src='desktop3.png' alt='account' />
 
         </div>
 

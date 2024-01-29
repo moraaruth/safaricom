@@ -228,3 +228,7 @@
     flex: 1;
     margin-left: 20px;
 }
+.dashboard1Container {
+    display: flex;
+    justify-content: space-between;
+}

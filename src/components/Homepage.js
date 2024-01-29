@@ -10,6 +10,7 @@ import Account from './Account'
 import Fibre from './Fibre'
 import World from './World'
 import Dashboard from './Dashboard'
+import Dashboard1 from './Dashboard1'
 
 
 
@@ -41,29 +42,34 @@ function Homepage() {
             <Navbar />
             <div className='home'>
                 <div className='homeText'>
-                <p className='getMore'>Get More Done With</p>
-                <p className='website'>safaricom.com</p>
-                <p>Check your Account balances, make top ups to <br/> ensure you have enough resources for calling <br /> airtime, SMS and data.</p>
-                <button className='switch'>Switch to safaricom internet</button>
-                <p>Find Out Why  <i className="fas fa-arrow-down"></i> </p>
+                    <p className='getMore'>Get More Done With</p>
+                    <p className='website'>safaricom.com</p>
+                    <p>Check your Account balances, make top ups to <br /> ensure you have enough resources for calling <br /> airtime, SMS and data.</p>
+                    <button className='switch'>Switch to safaricom internet</button>
+                    <p>Find Out Why  <i className="fas fa-arrow-down"></i> </p>
                 </div>
                 <div className='dashboardContainer'>
-            <Dashboard />
+                    <Dashboard />
+                </div>
             </div>
-            </div>
-          
+
             <div>
-           
+
                 <Discover />
-                <br/> <br/> <br/> <br/> 
-                <ExprienceMore /> 
-                <br/> <br/> <br/> 
+                <br /> <br /> <br /> <br />
+                <div>                
+                <ExprienceMore />
+                </div>              
+                <br /> <br /> <br />
+                <div className="dashboard1Container">
+                <Dashboard1 />
                 <Device />
-                <br/> <br/> <br/> 
+                </div>                
+                <br /> <br /> <br />
                 <Account />
-                <br/> <br/> <br/> 
+                <br /> <br /> <br />
                 <Fibre />
-                <br/> <br/> <br/> 
+                <br /> <br /> <br />
                 <World />
             </div>
             <h1 className='heading1'>Testimonials</h1>
@@ -90,10 +96,10 @@ function Homepage() {
                     />
 
                 </div>
-                <div className='arrows'>                 
+                <div className='arrows'>
 
                     <button className="arrow-button">
-                        <i className="fas fa-arrow-left"></i> 
+                        <i className="fas fa-arrow-left"></i>
                     </button>
                     <button className="arrow-button">
                         <i className="fas fa-arrow-right"></i>
@@ -101,7 +107,7 @@ function Homepage() {
                 </div>
             </div>
             <div>
-                <p className='feedback'>Was this information helpful?<a href="https://twitter.com/Safaricom_Care" target="_blank" rel="noopener noreferrer"> <span style={{color: "green", textDecoration: 'underline'}}>If not tell us how we can improve</span></a> or contact us <a href="https://twitter.com/Safaricom_Care" target="_blank" rel="noopener noreferrer"><span style={{color: "green", textDecoration: 'underline'}}>@Safaricom_Care</span> </a> on Twitter</p>
+                <p className='feedback'>Was this information helpful?<a href="https://twitter.com/Safaricom_Care" target="_blank" rel="noopener noreferrer"> <span style={{ color: "green", textDecoration: 'underline' }}>If not tell us how we can improve</span></a> or contact us <a href="https://twitter.com/Safaricom_Care" target="_blank" rel="noopener noreferrer"><span style={{ color: "green", textDecoration: 'underline' }}>@Safaricom_Care</span> </a> on Twitter</p>
             </div>
             <Footer />
         </>
