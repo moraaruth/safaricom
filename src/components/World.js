@@ -9,6 +9,7 @@ function World(){
             <p>Manage your Postpay or Prepay account here at Safaricom.com. Check you <br />Credit limits, pay your bills, manage your Bonga Points and so much more.</p>
             <br />
             <button className='worldbutton'>Switch to Safaricom Internet</button>
+           
         </div>
         </>
     )

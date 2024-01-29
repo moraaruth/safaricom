@@ -14,6 +14,7 @@ function ExprienceMore() {
 
                     <div className='content'>
                         <h6 style={{ fontSize: '22px', fontWeight: '450' }}>View M-PESA statement</h6><br />
+                        <img src='mpesa-icon.2ba5d6c9.svg' alt='m-pesa'/>
                         <p>This is a DIY (Do-It-Yourself) service that enables you to access an e-stamped M-PESA statements on demand without the need to visit a Safaricom Retail Shop.</p>
                         <br /><br />
                         <h6 style={{ fontSize: '22px', fontWeight: '450' }}>Data Sharing</h6><br />
