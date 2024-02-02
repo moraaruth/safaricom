@@ -26,7 +26,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg " style={navbarStyle}>
-      <a className="navbar-brand" href="/">Safaricom</a>
+      <a className="navbar-brand" href="/"><img src='safaricomlogo.png'   alt='safaricom' className='logo'/></a>
       <button
         className="navbar-toggler"
         type="button"

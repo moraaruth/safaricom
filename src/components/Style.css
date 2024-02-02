@@ -1,20 +1,25 @@
 
 .signin {
-    background-color: rgb(15, 131, 15);
-    border-radius: 20px;
+    background-color: rgb(110, 179, 110);
+    border-radius: 35px;
     color: white;
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
     border-style: none;
 }
 
 .navbar-brand {
     font-size: 1.5rem;
-    color: rgb(15, 131, 15);
+    color: rgb(110, 179, 110);
     font-weight: bolder;
     margin-left: 40px;
+}
+.logo {
+    width: 45%;
+    height: 45%;
+    
 }
 
 .home {
