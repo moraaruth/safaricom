@@ -7,12 +7,12 @@ import './Style.css';
 
 function Navbar() {
   const customButtonStyle = {
-    backgroundColor: 'rgb(15, 131, 15)',
+    backgroundColor: 'rgb(100, 194, 100)',
     color: 'white',
     borderRadius: '50%',
-    minWidth: '3.0rem',
-    minHeight: '3.0rem',
-    padding: '0.5rem',
+    minWidth: '2.7rem',
+    minHeight: '2.7rem',
+    paddingRight: '0.5rem',
   };
 
   const customLinkStyle = {

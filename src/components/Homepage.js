@@ -39,7 +39,8 @@ function Homepage() {
 
     return (
         <>
-            <Navbar />
+        <div style={{marginBottom:'30px'}}><Navbar /></div>
+            
             <div className='home'>
                 <div className='homeText'>
                     <p className='getMore'>Get More Done With</p>

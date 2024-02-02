@@ -1,6 +1,6 @@
 
 .signin {
-    background-color: rgb(110, 179, 110);
+    background-color: rgb(100, 194, 100);
     border-radius: 35px;
     color: white;
     padding-left: 2.0rem;
@@ -44,7 +44,7 @@
 }
 
 .website {
-    color: green;
+    color: rgb(110, 179, 110);
     font-size: 4.5rem;
     font-weight:bold;
     font-family:Arial, Helvetica, sans-serif;
@@ -57,7 +57,7 @@
     padding-bottom: 20px;
     padding-left: 45px;
     padding-right: 45px;
-    background-color: green;
+    background-color: rgb(110, 179, 110);
     color: white;
     border: none;
     border-radius: 40px;
@@ -138,13 +138,13 @@
     padding-bottom: 25px;
     padding-left: 35px;
     padding-right: 35px;
-    color: green;
+    color: rgb(110, 179, 110);
     font-size: 16px;
     background-color: white;
     border-radius: 5px;
 }
 .arrow-button:hover {
-    background-color: green;
+    background-color: rgb(110, 179, 110);
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -154,7 +154,7 @@
 
 .heading1 {
     text-transform: uppercase;
-    color: green;
+    color: rgb(110, 179, 110);
     font-weight: 300;
     font-size: 34px;
 }
@@ -208,7 +208,7 @@
     display: 'flex';
     flex-direction: 'column';
     align-items: 'flex-start';
-    background-color: rgb(57, 167, 57);
+    background-color: rgb(110, 179, 110);
     width: 85%;
     margin-left: 8rem;
     border-radius: 20px;
@@ -221,7 +221,7 @@
     border-radius: 10px;
     background-color: white;
     border-color: white;
-    color: green;
+    color: rgb(110, 179, 110);
     font-weight: 700;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
