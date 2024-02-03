@@ -183,8 +183,20 @@
   padding-left: 1rem;
   padding-right: 8.5rem;
   line-height: 1.5;
-  height: 250px;
+ 
 }
+
+.content-discover {
+    width: 48%;
+    background-color: rgb(245, 245, 245);
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 8.5rem;
+    line-height: 1.5;
+    height: 250px;
+  }
+  
 
 .content h6,
 .content p {
@@ -237,4 +249,13 @@
     height: 140px;
     width: 140px;
     align-self: flex-end;
+}
+
+.exprienceImage {
+    height: 30px;
+    width: 30px;
+}
+.exprience-container {
+    display: flex;
+    align-items: center;
 }
