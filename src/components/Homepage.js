@@ -43,11 +43,13 @@ function Homepage() {
             
             <div className='home'>
                 <div className='homeText'>
-                    <p className='getMore'>Get More Done With</p>
-                    <p className='website'>safaricom.com</p>
-                    <p>Check your Account balances, make top ups to <br /> ensure you have enough resources for calling <br /> airtime, SMS and data.</p>
-                    <button className='switch'>Switch to safaricom internet</button>
-                    <p>Find Out Why  <i className="fas fa-arrow-down"></i> </p>
+                    <p  style={{ textAlign: 'left' }}className='getMore'>Get More Done With</p>
+                    <h2  style={{ textAlign: 'left' }}className='website'>safaricom.com</h2><br/><br/>
+                    
+                    <p style={{ textAlign: 'left', marginLeft:'50px', fontSize:'32px', fontWeight:'400', lineHeight:'1.46' }}>Check your Account balances, make top ups to <br /> ensure you have enough resources for calling <br /> airtime, SMS and data.</p>
+                    <p style={{ textAlign: 'left', marginLeft:'50px' }}><button  className='switch'>Switch to safaricom internet</button></p>
+
+                    <p style={{ textAlign: 'left', marginLeft:'50px', color:'rgb(110, 179, 110)',fontSize:'22px', fontWeight:'400', marginTop:'30px'  }}>Find Out Why  <i className="fas fa-arrow-down"></i> </p>
                 </div>
                 <div className='dashboardContainer'>
                     <Dashboard />

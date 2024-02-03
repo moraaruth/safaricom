@@ -1,239 +1,230 @@
 
 .signin {
-    background-color: rgb(100, 194, 100);
-    border-radius: 35px;
-    color: white;
-    padding-left: 2.0rem;
-    padding-right: 2.0rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    border-style: none;
+  background-color: rgb(100, 194, 100);
+  border-radius: 35px;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-style: none;
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
-    color: rgb(110, 179, 110);
-    font-weight: bolder;
-    margin-left: 40px;
+  font-size: 1.5rem;
+  color: rgb(110, 179, 110);
+  font-weight: bolder;
+  margin-left: 40px;
 }
 .logo {
-    width: 45%;
-    height: 45%;
-    
+  width: 45%;
+  height: 45%;
 }
 
 .home {
-    background-color: rgb(245, 245, 245);
-    height: 700px;
-    margin-bottom: 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-   
+  background-color: rgba(245, 245, 245, 0.678);
+  height: 700px;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-.homeText {
-    float: left;
-  
-}
+/* .homeText {
+  float: left;
+  flex-direction: column;
+  margin-left: 0%;
+} */
 
 .getMore {
-    font-size: 4.5rem;
-    font-weight: 400;
-    font-family: sans-serif;
-    margin-left: 50px;
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-top: 100px;
 }
 
 .website {
-    color: rgb(110, 179, 110);
-    font-size: 4.5rem;
-    font-weight:bold;
-    font-family:Arial, Helvetica, sans-serif;
-    align-items: flex-start;
- 
+  color: rgb(100, 182, 100);
+  font-size: 3.8rem;
+  font-weight: 1000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 50px;
+  line-height: 1.167;
+  letter-spacing: -0.06px;
 }
 
 .switch {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 45px;
-    padding-right: 45px;
-    background-color: rgb(110, 179, 110);
-    color: white;
-    border: none;
-    border-radius: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: rgb(110, 179, 110);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  
 }
 .backgroud-container {
-    background-color: rgb(245, 245, 245);
-    padding: 30px;
-    max-width: 800px;
-    margin: 0 auto;
-    height: 400px;
-
-
+  background-color: rgb(245, 245, 245);
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 400px;
 }
 
 .testimonials-container {
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    overflow: hidden;
-    padding: 25px;
-    height: 280px;
-
-      
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 25px;
+  height: 280px;
 }
 
-.testimonial { 
-    width: calc(33.33% - 10px);
-    padding: 25px;
-    background-color: white;
-    border-radius: 5px;
-    margin: 0 5px 20px 5px;
-    margin-bottom: 30px;
-    text-align: left;
-    font-weight: 200;
-    font-family:sans-serif;
-    position: absolute;
-    font-size: 14px;
+.testimonial {
+  width: calc(33.33% - 10px);
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 5px 20px 5px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: 200;
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 14px;
 }
 
 .testimonial:first-child {
-
   left: -5px;
- 
 }
 
 .testimonial:last-child {
-  
-   right: -5px;
-
+  right: -5px;
 }
 
 .arrows {
-    padding-top: 0;   
-    max-width: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    margin-top: 0;
-    margin-bottom: 15px;
-    margin-left: 280px;
-  
-  }
-  
-  .arrow {
-    cursor: pointer;
-  }
-  
-  .previous {
-    margin-right: 10px;
-  }
-  
-  .next {
-    margin-left: 10px;
-  }
+  padding-top: 0;
+  max-width: 200px;
+  margin-bottom: 10px;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: 280px;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.previous {
+  margin-right: 10px;
+}
+
+.next {
+  margin-left: 10px;
+}
 
 .arrow-button {
-    border: none;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 35px;
-    padding-right: 35px;
-    color: rgb(110, 179, 110);
-    font-size: 16px;
-    background-color: white;
-    border-radius: 5px;
+  border: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  color: rgb(110, 179, 110);
+  font-size: 16px;
+  background-color: white;
+  border-radius: 5px;
 }
 .arrow-button:hover {
-    background-color: rgb(110, 179, 110);
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
+  background-color: rgb(110, 179, 110);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .heading1 {
-    text-transform: uppercase;
-    color: rgb(110, 179, 110);
-    font-weight: 300;
-    font-size: 34px;
+  text-transform: uppercase;
+  color: rgb(110, 179, 110);
+  font-weight: 300;
+  font-size: 34px;
 }
 
 .heading3 {
-    font-size: 28px;
-    font-weight: 400px;
-    margin-bottom: 35px;
+  font-size: 28px;
+  font-weight: 400px;
+  margin-bottom: 35px;
 }
 
 .feedback {
-    font-size: 12px;
-    font-weight: 200px;
-    margin-top: 35px;
-    margin-bottom: 35px;
+  font-size: 12px;
+  font-weight: 200px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .content {
-    width: 48%;
-    background-color: rgb(245, 245, 245);
-    padding-top: 2rem;
-    padding-bottom: 7.7rem;
-    padding-left: 1rem;
-    padding-right: 8.5rem;
-    line-height: 1.5;
-   
+  width: 48%;
+  background-color: rgb(245, 245, 245);
+  padding-top: 2rem;
+  padding-bottom: 7.7rem;
+  padding-left: 1rem;
+  padding-right: 8.5rem;
+  line-height: 1.5;
 }
 
 .content h6,
 .content p {
-    text-align: left;  
-   
+  text-align: left;
 }
 .h3 {
-    text-align: left;
-    margin-left: 30px;
+  text-align: left;
+  margin-left: 30px;
 }
 
 .exprience {
-    background-color: rgb(245, 245, 245);
-    padding: 1.5rem;
-    width: 100%;
+  background-color: rgb(245, 245, 245);
+  padding: 1.5rem;
+  width: 100%;
 }
 .world {
-    display: 'flex';
-    flex-direction: 'column';
-    align-items: 'flex-start';
-    background-color: rgb(110, 179, 110);
-    width: 85%;
-    margin-left: 8rem;
-    border-radius: 20px;
-    padding: 5rem;
-    text-align: left;
-    color: white;
+  display: "flex";
+  flex-direction: "column";
+  align-items: "flex-start";
+  background-color: rgb(110, 179, 110);
+  width: 85%;
+  margin-left: 8rem;
+  border-radius: 20px;
+  padding: 5rem;
+  text-align: left;
+  color: white;
 }
 
 .worldbutton {
-    border-radius: 10px;
-    background-color: white;
-    border-color: white;
-    color: rgb(110, 179, 110);
-    font-weight: 700;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  border-color: white;
+  color: rgb(110, 179, 110);
+  font-weight: 700;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .dashboardContainer {
-    flex: 1;
-    margin-left: 20px;
+  flex: 1;
+  margin-left: 20px;
 }
 .dashboard1Container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
