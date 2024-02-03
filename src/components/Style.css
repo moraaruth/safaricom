@@ -179,10 +179,11 @@
   width: 48%;
   background-color: rgb(245, 245, 245);
   padding-top: 2rem;
-  padding-bottom: 7.7rem;
+  padding-bottom: 0.7rem;
   padding-left: 1rem;
   padding-right: 8.5rem;
   line-height: 1.5;
+  height: 250px;
 }
 
 .content h6,
@@ -231,4 +232,9 @@
 .dashboard1Container {
   display: flex;
   justify-content: space-between;
+}
+.newspaper-image{
+    height: 140px;
+    width: 140px;
+    align-self: flex-end;
 }
