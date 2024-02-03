@@ -14,10 +14,12 @@ function Discover() {
                     <img className='newspaper-image' src="reading-newspaper.webp" alt="reading newspaper Logo" style={{ position: 'absolute', bottom: 0, right: 0 }} />
                 </div>
 
-                <div className='content'>
+                <div className='content'  style={{ position: 'relative' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                     <h6>View and analyse your spending</h6>
                     <p>Get a detailed breakdown of the usage of your bundles, track and manage the most consuming apps.</p>
-                    <img src="stats.webp" alt='stats' />
+                    </div>
+                    <img className="newspaper-image"src="stats.webp" alt='stats' style={{ position: 'absolute', bottom: 0, right: 0 }}/>
                 </div>
             </div>
         </>
