@@ -4,7 +4,7 @@ import './Style.css'
 function Device() {
     return (
         <>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', marginTop:'20%' }}>
 
                 <h2 style={{ textAlign: 'left', marginRight: '9.0rem' }}>Experience Safaricom World <br /> from any device</h2>
 <br />
