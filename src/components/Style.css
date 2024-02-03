@@ -64,6 +64,10 @@
   border-radius: 40px;
   
 }
+.dashboard {
+    margin-right: 0%;
+   
+}
 .backgroud-container {
   background-color: rgb(245, 245, 245);
   padding: 30px;
