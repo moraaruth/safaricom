@@ -2,9 +2,9 @@ import React from 'react';
 
 function Fibre() {
     return (
-        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start' }}>
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start'}}>
             <img src='desktop4.png' alt='fibre' style={{ marginRight: '7rem' }} />
-            <div>
+            <div style={{ marginTop:'22%' }}>
                 <h2 style={{ textAlign: 'left' }}>A faster way to manage <br /> your Home Fibre</h2>
                 <br />
                 <p style={{ textAlign: 'left' }}>

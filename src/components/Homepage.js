@@ -72,8 +72,8 @@ function Homepage() {
                 <Account />
                 <br /> <br /> <br />
                 <Fibre />
-                <br /> <br /> <br />
-                <World />
+                <br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br /> 
+                <World /> <br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br />
             </div>
             <h1 className='heading1'>Testimonials</h1>
             <h3 className='heading3'>What Our Trusted Users Say</h3>
